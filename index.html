@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><script>window.livecodes = window.livecodes || {};</script><title>Untitled Project</title><meta name="title" content="Untitled Project"><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><style id="__livecodes_styles__"></style><script src="https://cdn.jsdelivr.net/npm/es-module-shims@1.10.0/dist/es-module-shims.js" async=""></script><script type="importmap">{
+  "imports": {}
+}</script></head><body>
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="robots" content="noindex">
+<meta name="description" content="Terra Incognita — дегустационный павильон экзотических вкусов в центре Москвы. Матча, мангостин, том-кха, моти. Петровка, 30/7.">
+<title>Terra Incognita — дегустация экзотики в Москве</title>
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;🌿&lt;/text&gt;&lt;/svg&gt;">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,"Segoe UI",Roboto,sans-serif;background:#f5efe6;color:#2a2018;line-height:1.55;min-height:100vh;display:flex;flex-direction:column;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+main{flex:1;overflow-x:hidden}
+.wrap{max-width:1280px;margin:0 auto;padding:0 24px}
+.site-header{background:#f5efe6;border-bottom:2px solid #c9924a;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.header-inner{max-width:1280px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:22px;font-weight:800;color:#6a3f10;text-decoration:none;letter-spacing:.3px;cursor:pointer;display:flex;align-items:center;gap:8px;white-space:nowrap}
+.logo::before{content:"🌿";font-size:24px}
+.site-nav{display:flex;gap:4px;align-items:center}
+.site-nav a{color:#6a5a42;text-decoration:none;font-size:14px;font-weight:600;padding:8px 14px;border-radius:6px;cursor:pointer;transition:all .15s;white-space:nowrap}
+.site-nav a:hover{color:#6a3f10;background:#fff5e0}
+.site-nav a.active{color:#c9924a;background:#fff5e0}
+.burger{display:none;background:none;border:1px solid #e8dcc8;color:#6a3f10;font-size:22px;padding:6px 12px;border-radius:6px;cursor:pointer}
+.page{display:none}
+.page.active{display:block;animation:fadeIn .35s ease;padding:36px 0 60px}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+h1.page-title{font-size:32px;color:#6a3f10;font-weight:800;margin-bottom:8px;letter-spacing:-.4px}
+p.page-lead{font-size:16px;color:#6a5a42;margin-bottom:28px;max-width:720px}
+h2{font-size:16px;color:#6a3f10;margin:32px 0 14px;text-transform:uppercase;letter-spacing:1.5px}
+h2::before{content:"✦ ";color:#c9924a}
+.hero{background:linear-gradient(135deg,#2a2018 0%,#4a3828 60%,#6a3f10 100%);border-radius:18px;padding:44px 40px;color:#f5ede0;margin-bottom:40px;position:relative;overflow:hidden}
+.hero::after{content:"🍵🥭🍮";position:absolute;right:-20px;bottom:-20px;font-size:180px;opacity:.07;letter-spacing:-20px;pointer-events:none}
+.hero-eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:2.4px;color:#c9a05a;margin-bottom:12px;font-weight:700}
+.hero h1{font-size:36px;font-weight:800;line-height:1.18;margin-bottom:14px;max-width:620px;color:#f5ede0;letter-spacing:-.3px}
+.hero p{font-size:15px;color:#b8a888;max-width:520px;margin-bottom:24px;line-height:1.6}
+.hero-buttons{display:flex;gap:12px;flex-wrap:wrap;position:relative;z-index:1}
+.hero-btn{padding:14px 26px;border-radius:8px;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:1px;cursor:pointer;border:none;transition:all .15s;font-family:inherit}
+.hero-btn.primary{background:#c9924a;color:#fff}
+.hero-btn.primary:hover{background:#a87838}
+.hero-btn.secondary{background:transparent;color:#e8c988;border:2px solid #c9a05a}
+.hero-btn.secondary:hover{background:rgba(201,146,74,.15)}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-bottom:44px}
+.stat{background:#fffaf2;border:1px solid #e8dcc8;border-radius:12px;padding:22px;text-align:center}
+.stat .num{font-size:28px;font-weight:800;color:#c9924a;line-height:1.1}
+.stat .label{font-size:11px;color:#8a7a62;text-transform:uppercase;letter-spacing:1px;margin-top:6px;font-weight:600}
+.how-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-bottom:44px}
+.how-card{background:#fffaf2;border:1px solid #e8dcc8;border-radius:12px;padding:24px;position:relative}
+.how-card .how-num{position:absolute;top:16px;right:18px;font-size:36px;font-weight:800;color:#f0e8dc;line-height:1}
+.how-card .how-icon{font-size:28px;margin-bottom:10px}
+.how-card .how-title{font-size:14px;color:#6a3f10;font-weight:700;margin-bottom:6px}
+.how-card .how-desc{font-size:12.5px;color:#6a5a42;line-height:1.55}
+.reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-bottom:44px}
+.review{background:#fffaf2;border:1px solid #e8dcc8;border-radius:12px;padding:22px;position:relative}
+.review .stars{color:#c9924a;font-size:13px;letter-spacing:2px;margin-bottom:10px}
+.review .text{font-size:13px;color:#4a3a28;line-height:1.65;margin-bottom:14px;font-style:italic}
+.review .author{display:flex;align-items:center;gap:10px}
+.review .author .av{width:36px;height:36px;border-radius:50%;background:#fff5e0;display:flex;align-items:center;justify-content:center;font-size:18px}
+.review .author .info .name{font-size:13px;color:#6a3f10;font-weight:700}
+.review .author .info .date{font-size:11px;color:#8a7a62}
+.preview-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.preview-card{background:#fffaf2;border:1px solid #e8dcc8;border-radius:10px;padding:18px;transition:all .18s}
+.preview-card:hover{border-color:#c9924a;transform:translateY(-2px);box-shadow:0 4px 14px rgba(201,146,74,.12)}
+.preview-card .emoji{font-size:28px;margin-bottom:8px}
+.preview-card .name{color:#6a3f10;font-weight:700;font-size:14px}
+.preview-card .desc{font-size:11.5px;color:#8a7a62;margin-top:4px}
+.allergen-box{background:#fff5e0;border:1px solid #e8dcc8;border-radius:12px;padding:18px 20px;margin-bottom:20px}
+.allergen-box .ab-title{font-size:13px;color:#6a3f10;text-transform:uppercase;letter-spacing:1.2px;font-weight:800;margin-bottom:12px}
+.allergen-list{display:flex;flex-wrap:wrap;gap:8px}
+.allergen-chip{display:flex;align-items:center;gap:6px;background:#fffaf2;border:1px solid #e8dcc8;padding:6px 12px;border-radius:20px;font-size:12px;font-weight:600;color:#6a5a42;cursor:pointer;transition:all .15s;user-select:none}
+.allergen-chip:hover{border-color:#c9924a}
+.allergen-chip input{accent-color:#c9924a;width:14px;height:14px;cursor:pointer}
+.allergen-chip.active{background:#fff0e8;border-color:#e87a5a;color:#a83a3a}
+.allergen-info{font-size:12px;color:#8a7a62;margin-top:10px;line-height:1.5}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.dish{background:#fffaf2;border:1px solid #e8dcc8;border-radius:8px;padding:14px 16px;transition:all .18s;display:flex;gap:12px;align-items:flex-start;position:relative}
+.dish:hover{border-color:#c9924a;transform:translateY(-2px);box-shadow:0 4px 12px rgba(201,146,74,.1)}
+.dish.has-allergen{border-color:#e87a5a;background:#fff0e8}
+.dish.has-allergen::before{content:"⚠";position:absolute;top:10px;right:12px;color:#e87a5a;font-size:16px;font-weight:700}
+.dish-allergen-note{font-size:11px;color:#a83a3a;margin-top:4px;font-weight:600}
+.dish-emoji{flex:0 0 42px;width:42px;height:42px;border-radius:50%;background:#fff5e0;display:flex;align-items:center;justify-content:center;font-size:22px}
+.dish-content{flex:1;min-width:0}
+.dish .name{color:#6a3f10;font-weight:700;font-size:15px}
+.dish .desc{font-size:12px;color:#8a7a62;margin-top:3px}
+.dish .tag{display:inline-block;font-size:10px;padding:2px 8px;border-radius:10px;margin-top:8px;text-transform:uppercase;letter-spacing:.5px;font-weight:600}
+.tag.drink{background:#d8f0d8;color:#2a6a2a}
+.tag.food{background:#f8d8c8;color:#8a3a10}
+.tag.dessert{background:#f0d8e8;color:#8a2a6a}
+.about-text{max-width:760px;font-size:15px;color:#4a3a28;line-height:1.7;margin-bottom:32px}
+.about-text p{margin-bottom:14px}
+.about-text b{color:#6a3f10}
+.team-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:20px}
+.team-card{background:#fffaf2;border:1px solid #e8dcc8;border-radius:12px;padding:24px 20px;text-align:center}
+.team-card .avatar{width:80px;height:80px;border-radius:50%;background:#fff5e0;display:flex;align-items:center;justify-content:center;font-size:40px;margin:0 auto 14px}
+.team-card .name{font-size:16px;color:#6a3f10;font-weight:700}
+.team-card .role{font-size:12px;color:#c9924a;text-transform:uppercase;letter-spacing:1px;font-weight:700;margin:4px 0 10px}
+.team-card .bio{font-size:13px;color:#6a5a42;line-height:1.5}
+.view{display:none}
+.view.active{display:block;animation:fadeIn .3s ease}
+.step-bar{display:flex;gap:0;margin-bottom:28px;background:#fffaf2;border:1px solid #e8dcc8;border-radius:10px;overflow:hidden}
+.step-bar .sb-item{flex:1;padding:12px 14px;text-align:center;font-size:12px;font-weight:700;color:#8a7a62;text-transform:uppercase;letter-spacing:1px;position:relative;transition:all .2s}
+.step-bar .sb-item .sb-num{display:inline-flex;width:22px;height:22px;border-radius:50%;background:#e8dcc8;color:#8a7a62;align-items:center;justify-content:center;margin-right:6px;font-size:12px}
+.step-bar .sb-item.active{background:#fff5e0;color:#6a3f10}
+.step-bar .sb-item.active .sb-num{background:#c9924a;color:white}
+.step-bar .sb-item.done{color:#6a3f10}
+.step-bar .sb-item.done .sb-num{background:#6aa84a;color:white}
+@media(max-width:500px){.step-bar .sb-item{font-size:10px;padding:10px 6px}.step-bar .sb-item .sb-num{width:18px;height:18px;font-size:10px;margin-right:3px}}
+.day-strip{display:flex;gap:8px;margin-bottom:18px;overflow-x:auto;padding-bottom:6px}
+.day-chip{flex:0 0 auto;background:#fffaf2;border:2px solid #e8dcc8;border-radius:10px;padding:10px 16px;text-align:center;cursor:pointer;transition:all .15s;min-width:78px}
+.day-chip:hover{border-color:#c9924a}
+.day-chip.selected{border-color:#c9924a;background:#fff5e0;box-shadow:0 2px 8px rgba(201,146,74,.15)}
+.day-chip .dc-day{font-size:11px;color:#8a7a62;text-transform:uppercase;letter-spacing:1px;font-weight:700}
+.day-chip.selected .dc-day{color:#c9924a}
+.day-chip .dc-num{font-size:22px;font-weight:800;color:#6a3f10;line-height:1.1;margin:2px 0}
+.day-chip .dc-month{font-size:11px;color:#8a7a62}
+.passes{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.pass{background:linear-gradient(180deg,#fffdf8,#fffaf2);border:1.5px solid #e8dcc8;border-radius:14px;padding:22px;cursor:pointer;transition:all .2s;position:relative;display:flex;flex-direction:column}
+.pass:hover{border-color:#d8b478;transform:translateY(-2px);box-shadow:0 14px 30px -20px rgba(201,146,74,.5)}
+.pass.selected{border-color:#c9924a;background:linear-gradient(180deg,#fffaf2,#fff5e0);box-shadow:0 14px 30px -20px rgba(201,146,74,.55)}
+.pass.selected::after{content:"✓";position:absolute;top:14px;right:16px;background:#c9924a;color:#fff;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:bold}
+.pass-badges{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}
+.pass-badge{font-size:10px;padding:4px 10px;border-radius:12px;background:#fff5e0;color:#b8802f;font-weight:700;text-transform:uppercase;letter-spacing:.5px;border:1px solid rgba(201,146,74,.2)}
+.pass.selected .pass-badge{background:rgba(201,146,74,.15)}
+.pass .title{font-size:20px;color:#6a3f10;font-weight:800;padding-right:32px;letter-spacing:-.2px;margin-bottom:8px}
+.pass-desc{font-size:13px;color:#6a5a42;line-height:1.55;margin-bottom:18px;flex:1}
+.pass-price{font-size:15px;font-weight:800;color:#b8802f;margin-bottom:4px}
+.pass-price small{font-size:11px;color:#8a7a62;font-weight:500;margin-left:4px}
+.pass .price-total{display:none;justify-content:space-between;align-items:baseline;gap:8px;font-size:11px;color:#6a5a42;padding:8px 0;margin-top:8px;border-top:1px dashed #e8dcc8}
+.pass .price-total b{font-size:14px;color:#6a3f10;font-weight:800;white-space:nowrap}
+.pass .slots{font-size:11px;color:#8a7a62;padding-top:12px;border-top:1px dashed #e8dcc8;margin-top:8px}
+.compare-table{width:100%;border-collapse:collapse;margin-top:20px;background:#fffaf2;border:1px solid #e8dcc8;border-radius:10px;overflow:hidden;font-size:13px}
+.compare-table th,.compare-table td{padding:10px 12px;text-align:left;border-bottom:1px solid #e8dcc8}
+.compare-table th{background:#fff5e0;font-weight:700;color:#6a3f10;font-size:12px;text-transform:uppercase;letter-spacing:.5px}
+.compare-table th:first-child,.compare-table td:first-child{color:#8a7a62;font-weight:600}
+.compare-table tr:last-child td{border-bottom:none}
+.compare-table td.yes{color:#2a6a2a;font-weight:700}
+.compare-table td.no{color:#b8a888}
+.compare-wrap{overflow-x:auto}
+.slots-grid{display:flex;flex-wrap:wrap;gap:8px}
+.slot{background:#fffaf2;border:1px solid #e8dcc8;color:#2a2018;padding:10px 16px;border-radius:6px;cursor:pointer;font-size:14px;font-weight:500;transition:all .15s;position:relative;font-family:inherit}
+.slot:hover:not(.busy){border-color:#c9924a}
+.slot.selected{background:#c9924a;color:white;border-color:#c9924a}
+.slot.busy{background:#f0e8dc;color:#b8a888;cursor:not-allowed;text-decoration:line-through}
+.slot.busy::after{content:"занято";position:absolute;top:-8px;right:-6px;background:#e87a5a;color:white;font-size:9px;padding:1px 6px;border-radius:8px;text-decoration:none;font-weight:700}
+.slot.past{background:#f0e8dc;color:#b8a888;cursor:not-allowed;text-decoration:line-through}
+.slot.past::after{content:"прошёл";position:absolute;top:-8px;right:-6px;background:#a89880;color:white;font-size:9px;padding:1px 6px;border-radius:8px;text-decoration:none;font-weight:700}
+.slots-legend{font-size:11px;color:#8a7a62;margin-top:8px}
+.slots-legend .sw{display:inline-block;width:10px;height:10px;border-radius:2px;background:#f0e8dc;margin:0 4px 0 10px;vertical-align:middle;border:1px solid #e8dcc8}
+.slots-legend .sw:first-child{margin-left:0;background:#fffaf2}
+.no-slots-msg{color:#8a7a62;font-size:14px;font-style:italic;padding:12px 0}
+.guests{display:flex;align-items:center;gap:14px}
+.guests button{width:40px;height:40px;border-radius:6px;background:#fffaf2;color:#6a3f10;border:1px solid #e8dcc8;font-size:20px;cursor:pointer;font-weight:600;transition:all .15s}
+.guests button:hover:not(:disabled){border-color:#c9924a;background:#fff5e0}
+.guests button:active:not(:disabled){transform:scale(.96)}
+.guests button:disabled{opacity:.4;cursor:not-allowed}
+.guests span{font-size:20px;font-weight:700;min-width:28px;text-align:center;color:#6a3f10}
+.guests-note{font-size:12px;color:#8a7a62;margin-top:8px}
+.promo-row{display:flex;gap:8px;margin-top:16px;padding-top:16px;border-top:1px dashed #e8dcc8}
+.promo-row input{flex:1;padding:10px 12px;border:1px solid #e8dcc8;border-radius:6px;font-size:13px;font-family:inherit;background:#fffaf2;color:#2a2018;text-transform:uppercase;letter-spacing:1px;min-width:0}
+.promo-row input:focus{outline:none;border-color:#c9924a}
+.promo-row button{background:#c9924a;color:white;border:none;padding:10px 18px;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer;text-transform:uppercase;letter-spacing:1px;white-space:nowrap;font-family:inherit}
+.promo-row button:hover{background:#a87838}
+.promo-applied{display:flex;align-items:center;justify-content:space-between;margin-top:12px;padding:10px 12px;background:#e8f5e0;border:1px solid #6aa84a;border-radius:6px;font-size:12px;color:#2a6a2a;font-weight:600;gap:8px;flex-wrap:wrap}
+.promo-applied .pa-code{font-family:"Courier New",monospace;font-weight:800;letter-spacing:1px}
+.promo-applied .pa-remove{background:none;border:none;color:#a83a3a;font-size:11px;font-weight:700;cursor:pointer;text-decoration:underline;padding:0;font-family:inherit}
+.promo-error{font-size:11px;color:#a83a3a;margin-top:6px;font-weight:600;display:none}
+.promo-error.show{display:block}
+.cart{background:#fffaf2;border:2px solid #c9924a;border-radius:10px;padding:24px;margin-top:36px}
+.cart h3{color:#6a3f10;font-size:15px;margin-bottom:16px;text-transform:uppercase;letter-spacing:1.5px}
+.row{display:flex;justify-content:space-between;padding:6px 0;font-size:14px;color:#6a5a42;gap:12px}
+.cart .row>span:first-child,.pay-summary .row>span:first-child{word-break:break-word;overflow-wrap:anywhere;padding-right:12px}
+.cart .row>span:last-child,.pay-summary .row>span:last-child{white-space:nowrap;flex-shrink:0}
+.row .note-sm{font-size:11px;color:#a89880;margin-left:6px}
+.row.discount{color:#2a6a2a;font-weight:600}
+.row.total{border-top:2px solid #e8dcc8;margin-top:12px;padding-top:14px;font-size:22px;color:#2a2018;font-weight:800}
+.row.total span:last-child{color:#c9924a}
+.btn{width:100%;margin-top:18px;background:#c9924a;color:white;border:none;padding:15px;border-radius:6px;font-size:15px;font-weight:700;cursor:pointer;text-transform:uppercase;letter-spacing:1.5px;transition:background .15s;font-family:inherit}
+.btn:hover:not(:disabled){background:#a87838}
+.btn:disabled{background:#d8d0c0;color:#a89880;cursor:not-allowed}
+.btn.ghost{background:transparent;color:#8a7a62;border:1px solid #e8dcc8}
+.btn.ghost:hover{border-color:#c9924a;color:#6a3f10;background:#fff5e0}
+.btn-hint{text-align:center;font-size:12px;color:#c9924a;margin-top:8px;font-weight:600}
+.pay-head{display:flex;align-items:center;gap:14px;margin-bottom:20px}
+.back{background:none;border:1px solid #e8dcc8;color:#6a3f10;padding:8px 14px;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600;font-family:inherit}
+.back:hover{border-color:#c9924a;background:#fff5e0}
+.pay-title{font-size:20px;color:#6a3f10;font-weight:700}
+.pay-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,400px);gap:24px;align-items:start}
+.pay-layout>div{min-width:0}
+.steps{background:#fff5e0;border:2px solid #c9924a;border-radius:10px;padding:18px 20px;margin-bottom:20px}
+.steps .steps-title{font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:#6a3f10;margin-bottom:14px}
+.step{display:flex;gap:14px;padding:8px 0;align-items:flex-start}
+.step:not(:last-child){border-bottom:1px dashed #e8dcc8}
+.step .num{flex:0 0 28px;height:28px;border-radius:50%;background:#c9924a;color:white;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:14px}
+.step .txt{font-size:13px;color:#4a3a28;line-height:1.5;padding-top:4px;word-wrap:break-word;overflow-wrap:break-word;min-width:0}
+.step .txt b{color:#6a3f10}
+.step .txt .amount{color:#c9924a;font-weight:800;font-size:15px}
+.pay-card{position:relative;overflow:hidden;background:linear-gradient(135deg,#2a2018,#4a3828);border-radius:14px;padding:28px 26px;color:#f5ede0;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+.pay-card .brand{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;gap:8px}
+.pay-card .brand-name{font-size:15px;font-weight:700;color:#e8c988;letter-spacing:1px}
+.pay-card .brand-logo{font-size:11px;color:#c9a05a;letter-spacing:2px;font-weight:700}
+.pay-card .label{font-size:11px;text-transform:uppercase;letter-spacing:2px;color:#c9a05a;margin-bottom:8px}
+.card-number{font-family:"Courier New",monospace;font-size:clamp(15px,4.5vw,26px);letter-spacing:clamp(1px,.35vw,3px);font-weight:700;margin-bottom:20px;color:#f5ede0!important;-webkit-text-fill-color:#f5ede0;text-decoration:none!important;user-select:text;cursor:pointer;word-break:break-word}
+.card-number:hover{color:#e8c988!important;-webkit-text-fill-color:#e8c988}
+.card-meta{display:flex;justify-content:space-between;font-size:12px;color:#b8a888;gap:12px}
+.card-meta div span{display:block;color:#f5ede0;font-size:13px;margin-top:3px;font-weight:600}
+.copy-btn{margin-top:20px;width:100%;background:rgba(201,146,74,.2);border:1px solid #c9a05a;color:#e8c988;padding:11px;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600;font-family:inherit}
+.copy-btn:hover{background:rgba(201,146,74,.35)}
+.timer{display:flex;justify-content:space-between;align-items:center;margin-top:20px;padding-top:16px;border-top:1px solid rgba(201,146,74,.2);font-size:13px;color:#b8a888;gap:8px}
+.timer b{font-family:"Courier New",monospace;font-size:18px;color:#e8c988;letter-spacing:1px}
+.pay-summary{background:#fffaf2;border:1px solid #e8dcc8;border-radius:10px;padding:24px}
+.pay-summary h3{font-size:14px;text-transform:uppercase;letter-spacing:1.5px;color:#6a3f10;margin-bottom:16px}
+.pay-summary .row{font-size:13px}
+.contact-form{margin-top:20px;padding-top:20px;border-top:1px dashed #e8dcc8}
+.contact-form h4{font-size:13px;color:#6a3f10;text-transform:uppercase;letter-spacing:1.2px;margin-bottom:14px;font-weight:800}
+.contact-form label{display:block;margin-bottom:12px}
+.contact-form label span{display:block;font-size:11px;color:#8a7a62;margin-bottom:5px;font-weight:600;letter-spacing:.3px}
+.contact-form input{width:100%;padding:11px 13px;border:1px solid #e8dcc8;border-radius:6px;font-size:14px;font-family:inherit;background:#fffaf2;color:#2a2018;transition:all .15s}
+.contact-form input:focus{outline:none;border-color:#c9924a;background:#fff5e0}
+.contact-form input.invalid{border-color:#e87a5a;background:#fff0e8}
+.contact-form .error-msg{font-size:11px;color:#a83a3a;margin-top:4px;display:none;font-weight:600}
+.contact-form .error-msg.show{display:block}
+.pay-warning{display:flex;gap:10px;align-items:flex-start;margin-top:14px;padding:12px 14px;background:#fff0e8;border-left:4px solid #e87a5a;border-radius:4px;font-size:12px;color:#8a3a1a;line-height:1.5;font-weight:600}
+.pay-warning .icon{flex:0 0 20px;height:20px;border-radius:50%;background:#e87a5a;color:white;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:13px}
+.timer-expired-box{display:none;margin-top:14px;padding:14px 16px;background:#ffe8e0;border:2px solid #e87a5a;border-radius:8px;font-size:13px;color:#8a3a1a;line-height:1.5;font-weight:600;text-align:center}
+.timer-expired-box.show{display:block}
+.timer-expired-box button{margin-top:10px;background:#e87a5a;color:white;border:none;padding:9px 16px;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer;text-transform:uppercase;letter-spacing:1px;font-family:inherit}
+.timer-expired-box button:hover{background:#c95a3a}
+.ticket{background:#fffaf2;border:2px dashed #c9924a;border-radius:12px;padding:26px;margin-top:20px;max-width:680px}
+.ticket h3{color:#c9924a;font-size:18px;text-align:center;margin-bottom:18px;letter-spacing:1px}
+.ticket .line{display:flex;justify-content:space-between;padding:5px 0;font-size:13px;font-family:"Courier New",monospace;gap:12px}
+.ticket .line span:first-child{color:#8a7a62;flex-shrink:0}
+.ticket .line span:last-child{text-align:right;word-break:break-word;overflow-wrap:anywhere;padding-left:12px}
+.ticket .receipt-note{margin-top:16px;padding:12px 14px;background:#fff5e0;border-left:3px solid #c9924a;border-radius:4px;font-size:12px;color:#6a5a42;line-height:1.5}
+.ticket .receipt-note b{color:#6a3f10}
+.ticket-actions{display:flex;gap:10px;margin-top:20px;max-width:680px;flex-wrap:wrap}
+.ticket-actions .btn{margin-top:0;flex:1;min-width:140px}
+.hint{font-size:12px;color:#8a7a62;margin-top:8px}
+.contacts-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:24px;align-items:start;margin-bottom:32px}
+.contact-info{background:#fffaf2;border:1px solid #e8dcc8;border-radius:12px;padding:24px}
+.contact-item{padding:14px 0;border-bottom:1px dashed #e8dcc8}
+.contact-item:last-child{border-bottom:none}
+.contact-item .label{font-size:11px;text-transform:uppercase;letter-spacing:1.2px;color:#c9924a;font-weight:700;margin-bottom:4px}
+.contact-item .value{font-size:15px;color:#2a2018;font-weight:600;word-break:break-word}
+.contact-item .sub{font-size:12px;color:#8a7a62;margin-top:3px}
+.contact-map{border-radius:12px;overflow:hidden;border:1px solid #e8dcc8}
+.contact-map iframe{display:block;width:100%;height:420px;border:none}
+.how-to-get{background:#fffaf2;border:1px solid #e8dcc8;border-radius:12px;padding:24px}
+.how-to-get p{font-size:14px;color:#4a3a28;line-height:1.65;margin-bottom:10px}
+.how-to-get p:last-child{margin-bottom:0}
+.how-to-get b{color:#6a3f10}
+.faq-list{max-width:820px}
+.faq-item{background:#fffaf2;border:1px solid #e8dcc8;border-radius:10px;margin-bottom:10px;overflow:hidden}
+.faq-q{padding:16px 20px;font-size:15px;color:#6a3f10;font-weight:700;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:14px;transition:background .15s}
+.faq-q:hover{background:#fff5e0}
+.faq-q .plus{font-size:22px;color:#c9924a;font-weight:400;flex:0 0 auto;transition:transform .2s}
+.faq-item.open .faq-q .plus{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease,padding .3s ease;padding:0 20px;font-size:14px;color:#4a3a28;line-height:1.65}
+.faq-item.open .faq-a{max-height:400px;padding:0 20px 18px}
+.site-footer{background:#2a2018;color:#b8a888;padding:40px 24px 24px;margin-top:60px}
+.footer-inner{max-width:1280px;margin:0 auto}
+.footer-cols{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:32px;margin-bottom:32px}
+.footer-cols h4{color:#e8c988;font-size:13px;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:14px;font-weight:800}
+.footer-cols p,.footer-cols a{font-size:13px;color:#b8a888;line-height:1.8;text-decoration:none;display:block}
+.footer-cols a{cursor:pointer;transition:color .15s}
+.footer-cols a:hover{color:#e8c988}
+.footer-brand{color:#e8c988;font-size:18px;font-weight:800;margin-bottom:10px}
+.footer-bottom{border-top:1px solid #4a3828;padding-top:20px;text-align:center;font-size:12px;color:#8a7a62}
+.cookie-banner{position:fixed;bottom:0;left:0;right:0;background:#2a2018;color:#b8a888;padding:16px 24px;z-index:500;display:none;align-items:center;justify-content:space-between;gap:16px;box-shadow:0 -4px 20px rgba(0,0,0,.15);flex-wrap:wrap}
+.cookie-banner.show{display:flex}
+.cookie-banner .txt{font-size:13px;line-height:1.5;flex:1;min-width:240px}
+.cookie-banner .txt b{color:#e8c988}
+.cookie-banner button{background:#c9924a;color:white;border:none;padding:10px 22px;border-radius:6px;font-size:13px;font-weight:700;cursor:pointer;text-transform:uppercase;letter-spacing:1px;white-space:nowrap;font-family:inherit}
+.cookie-banner button:hover{background:#a87838}
+#copyModal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:9999;padding:20px}
+#copyModal .modal-card{background:#fffaf2;border-radius:14px;padding:26px 24px;max-width:420px;width:100%;box-shadow:0 12px 40px rgba(0,0,0,.3);text-align:center}
+#copyModal .modal-title{font-size:16px;font-weight:800;color:#6a3f10;margin-bottom:8px}
+#copyModal .modal-sub{font-size:12px;color:#8a7a62;margin-bottom:18px;line-height:1.5}
+#copyModal .modal-num{font-family:"Courier New",monospace;font-size:20px;letter-spacing:2px;font-weight:700;color:#6a3f10;background:#fff5e0;border:2px solid #c9924a;border-radius:8px;padding:14px 10px;margin-bottom:16px;user-select:all;-webkit-user-select:all;cursor:pointer}
+#copyModal .modal-btn{width:100%;background:#c9924a;color:white;border:none;padding:12px;border-radius:6px;font-size:14px;font-weight:700;cursor:pointer;text-transform:uppercase;letter-spacing:1px;font-family:inherit}
+#copyModal .modal-btn:hover{background:#a87838}
+@media(max-width:920px){.pay-layout{grid-template-columns:1fr}}
+@media(max-width:900px){.burger{display:block}.site-nav{display:none;position:absolute;top:100%;left:0;right:0;background:#f5efe6;border-bottom:2px solid #c9924a;flex-direction:column;padding:10px 24px 16px;gap:4px;box-shadow:0 4px 12px rgba(0,0,0,.08)}.site-nav.open{display:flex}.site-nav a{padding:10px 12px}.contacts-grid{grid-template-columns:1fr}.footer-cols{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.wrap{padding:0 16px}.hero{padding:32px 22px;border-radius:14px}.hero h1{font-size:26px;letter-spacing:-.2px}.hero p{font-size:13.5px}.hero::after{font-size:120px}h1.page-title{font-size:26px}.menu-grid,.passes,.preview-grid,.team-grid,.reviews-grid,.how-grid{grid-template-columns:1fr}.card-number{font-size:18px;letter-spacing:1.5px}.cart,.pay-summary,.steps{padding:18px}.pay-card{padding:20px 18px}.logo{font-size:18px}.logo::before{font-size:20px}.compare-table{font-size:12px}.compare-table th,.compare-table td{padding:8px}.promo-row input{flex:1 1 140px}.promo-row button{flex:0 0 auto}.ticket-actions{flex-direction:column}.footer-cols{grid-template-columns:1fr}.pass{padding:20px}.pass .title{font-size:18px}.stat .num{font-size:24px}}
+@media(max-width:380px){.logo{font-size:16px}.logo span{display:none}.logo::after{content:"Terra"}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}
+html,body{width:100%;max-width:100vw;overflow-x:hidden}
+main.wrap{width:100%;max-width:100vw;overflow-x:hidden}
+.page,.view,.day-strip{width:100%;max-width:100%;box-sizing:border-box}
+#viewPayment,#viewTicket,.step-bar{width:100%;max-width:960px;margin-left:auto;margin-right:auto}
+</style>
+
+
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" data-nav="home" href="#"><span>Terra Incognita</span></a>
+    <button type="button" class="burger" id="burgerBtn" aria-label="Меню">☰</button>
+    <nav class="site-nav" id="siteNav">
+      <a data-nav="home" href="#">Главная</a>
+      <a data-nav="menu" href="#">Меню</a>
+      <a data-nav="about" href="#">О нас</a>
+      <a data-nav="booking" href="#">Бронирование</a>
+      <a data-nav="contacts" href="#">Контакты</a>
+      <a data-nav="faq" href="#">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section class="page active" data-page="home">
+  <div class="hero">
+    <div class="hero-eyebrow">Москва · Петровка, 30/7 · с 2023 года</div>
+    <h1>Попробуйте вкусы, которые редко встретишь в обычном меню</h1>
+    <p>Матча церемониального класса из Удзи, мангостин по сезону, тайский том-кха и моти ручной работы. Дегустации на 6 или 12 мини-порций — с гидом или без, в двух шагах от Пушкинской площади.</p>
+    <div class="hero-buttons">
+      <button type="button" class="hero-btn primary" data-nav="booking" data-target="passesSection">Забронировать</button>
+      <button type="button" class="hero-btn secondary" data-nav="menu">Смотреть меню</button>
+    </div>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat"><div class="num">2023</div><div class="label">Год основания</div></div>
+    <div class="stat"><div class="num">40+</div><div class="label">Вкусов за год</div></div>
+    <div class="stat"><div class="num">10 000+</div><div class="label">Гостей за год</div></div>
+    <div class="stat"><div class="num">24</div><div class="label">Места в зале</div></div>
+  </div>
+
+  <h2>Как проходит дегустация</h2>
+  <div class="how-grid">
+    <div class="how-card"><div class="how-num">1</div><div class="how-icon">🎟️</div><div class="how-title">Выбираете пропуск</div><div class="how-desc">«Знакомство» (6 порций) или «Погружение» (12). Бронируете день, время и оплачиваете переводом на карту.</div></div>
+    <div class="how-card"><div class="how-num">2</div><div class="how-icon">🍽️</div><div class="how-title">Приходите к сеансу</div><div class="how-desc">За 5 минут до старта. Показываете билет администратору, гид рассаживает за стол и начинает.</div></div>
+    <div class="how-card"><div class="how-num">3</div><div class="how-icon">💬</div><div class="how-title">Пробуете и обсуждаете</div><div class="how-desc">Мини-порции с пояснениями гида: откуда продукт, как его едят, с чем сочетать. Можно задавать вопросы.</div></div>
+  </div>
+
+  <h2>Немного из нашего меню</h2>
+  <div class="preview-grid" id="homePreview"></div>
+  <div style="text-align:center;margin-top:32px"><button type="button" class="hero-btn primary" data-nav="menu">Всё меню →</button></div>
+
+  <h2>Отзывы гостей</h2>
+  <div class="reviews-grid">
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <div class="text">Ходили на «Погружение» с подругой. Больше всего запомнился том-кха и моти с матчей. Гид рассказывал подробно, но без перегруза — успевали и пробовать, и обсуждать.</div>
+      <div class="author"><div class="av">👩</div><div class="info"><div class="name">Мария К.</div><div class="date">Октябрь 2026</div></div></div>
+    </div>
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <div class="text">Были с женой на «Знакомстве». Понравилось, что порции маленькие: не наедаешься, а именно пробуешь. Сделали пару кадров у стола — получились отлично.</div>
+      <div class="author"><div class="av">👨</div><div class="info"><div class="name">Андрей В.</div><div class="date">Сентябрь 2026</div></div></div>
+    </div>
+    <div class="review">
+      <div class="stars">★★★★☆</div>
+      <div class="text">Атмосфера спокойная, гид приятный. Единственное — слоты на вечер разбирают заранее. Бронировать лучше за неделю-полторы.</div>
+      <div class="author"><div class="av">👩‍🦰</div><div class="info"><div class="name">Екатерина Л.</div><div class="date">Ноябрь 2026</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="page" data-page="menu">
+  <h1 class="page-title">Меню дегустации</h1>
+  <p class="page-lead">13 позиций в текущей ротации. На сеансе вы пробуете 6 или 12 мини-порций — в зависимости от пропуска. Состав обновляется раз в две недели.</p>
+
+  <div class="allergen-box">
+    <div class="ab-title">У меня аллергия на:</div>
+    <div class="allergen-list" id="allergenList"></div>
+    <div class="allergen-info">Отметьте аллергены — блюда с их содержанием подсветятся красным. Предупредите нас при бронировании — заменим продукт бесплатно.</div>
+  </div>
+
+  <h2>Полный список</h2>
+  <div class="menu-grid" id="menuList"></div>
+  <div style="text-align:center;margin-top:36px"><button type="button" class="hero-btn primary" data-nav="booking">Забронировать дегустацию</button></div>
+</section>
+
+<section class="page" data-page="about">
+  <h1 class="page-title">О нас</h1>
+  <p class="page-lead">Terra Incognita — небольшой дегустационный павильон в центре Москвы, где можно попробовать то, что редко встретишь в меню обычных ресторанов.</p>
+  <div class="about-text">
+    <p>Мы открылись в <b>2023 году</b> на Петровке — как небольшой проект двух друзей: повара и чайного мастера. Идея была простой: собрать вкусы из Азии, Латинской Америки и Ближнего Востока и дать гостям попробовать их без необходимости ехать за тридевять земель.</p>
+    <p>Каждый сеанс — это <b>мини-порции</b> по 20–40 мл или 20–30 г. Не «наесться», а именно попробовать: сравнить, обсудить с гидом, запомнить. За вечер гость проходит от лёгкого чая до плотного десерта.</p>
+    <p>Работаем с <b>малыми поставщиками</b>: мангостин и личи импортируем из Таиланда и Вьетнама по сезону, матчу — из Удзи, специи — с рынков Стамбула. Всё, что можно сделать на месте, делаем сами: моти, панна-котту, том-кха.</p>
+    <p>За прошлый год через павильон прошло больше <b>10 000 гостей</b>. Мы небольшие: 24 посадочных места, 6 сеансов в день — поэтому бронировать лучше заранее.</p>
+  </div>
+  <h2>Команда</h2>
+  <div class="team-grid">
+    <div class="team-card"><div class="avatar">👨‍🍳</div><div class="name">Руслан С.</div><div class="role">Шеф и основатель</div><div class="bio">12 лет в азиатской кухне. Работал в Бангкоке и Токио. Отвечает за меню и поставки.</div></div>
+    <div class="team-card"><div class="avatar">🍵</div><div class="name">Анна М.</div><div class="role">Чайный мастер</div><div class="bio">Сертифицированный tea sommelier. Ведёт чайную часть и обучает гидов.</div></div>
+    <div class="team-card"><div class="avatar">🌟</div><div class="name">Дмитрий К.</div><div class="role">Гид-дегустатор</div><div class="bio">Ведёт вечерние сеансы. Умеет рассказывать о вкусе так, что хочется попробовать ещё.</div></div>
+  </div>
+</section>
+
+<section class="page" data-page="booking">
+  <h1 class="page-title">Бронирование</h1>
+  <p class="page-lead">Выберите пропуск, день и время.</p>
+
+  <div class="step-bar" id="stepBar">
+    <div class="sb-item active" data-step="1"><span class="sb-num">1</span>Пропуск</div>
+    <div class="sb-item" data-step="2"><span class="sb-num">2</span>Оплата</div>
+    <div class="sb-item" data-step="3"><span class="sb-num">3</span>Билет</div>
+  </div>
+
+  <div class="view active" id="viewBooking">
+    <h2 id="passesSection">1. Выберите пропуск</h2>
+    <div class="passes" id="passes"></div>
+
+    <h2>Сравнение пропусков</h2>
+    <div class="compare-wrap">
+      <table class="compare-table">
+        <thead><tr><th></th><th>Знакомство</th><th>Погружение</th></tr></thead>
+        <tbody>
+          <tr><td>Мини-порций</td><td>6</td><td>12</td></tr>
+          <tr><td>Длительность</td><td>30 мин</td><td>60 мин</td></tr>
+          <tr><td>Гид и рассказ</td><td class="no">—</td><td class="yes">✓</td></tr>
+          <tr><td>Памятный браслет</td><td class="no">—</td><td class="yes">✓</td></tr>
+          <tr><td>Цена за 1-го</td><td>2 000 ₽</td><td>5 000 ₽</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>2. День и время</h2>
+    <div class="day-strip" id="dayStrip"></div>
+    <div class="slots-grid" id="slots"></div>
+    <p class="slots-legend" id="slotsLegend"><span class="sw"></span>свободно <span class="sw"></span>занято · последний старт — 20:00, отмена бесплатно за 2 часа</p>
+
+    <h2>3. Количество гостей</h2>
+    <div class="guests">
+      <button type="button" id="minus">−</button>
+      <span id="guestCount">1</span>
+      <button type="button" id="plus">+</button>
+    </div>
+    <p class="guests-note" id="guestsNote">Цена за гостя — выберите пропуск</p>
+
+    <div class="cart">
+      <h3>Ваш заказ</h3>
+      <div id="cartRows"></div>
+      <div class="promo-row">
+        <input type="text" id="promoInput" placeholder="Промокод" maxlength="20">
+        <button type="button" id="promoApply">Применить</button>
+      </div>
+      <div class="promo-error" id="promoError">Промокод не найден</div>
+      <div class="row total"><span>Итого</span><span id="total">0 ₽</span></div>
+      <button type="button" class="btn" id="checkout" disabled="">Перейти к оплате</button>
+      <p class="btn-hint" id="btnHint">Выберите пропуск и время сеанса</p>
+    </div>
+  </div>
+
+  <div class="view" id="viewPayment">
+    <div class="pay-head">
+      <button type="button" class="back" id="backBtn">← Назад</button>
+      <div class="pay-title">Оплата пропуска</div>
+    </div>
+    <div class="pay-layout">
+      <div>
+        <div class="steps">
+          <div class="steps-title">Как оплатить — 3 шага</div>
+          <div class="step"><div class="num">1</div><div class="txt">Переведите <span class="amount" id="stepAmount">0 ₽</span> на карту <b>2202 2088 5991 1860</b> (Руслан С.) в приложении своего банка.</div></div>
+          <div class="step"><div class="num">2</div><div class="txt">В назначении платежа укажите номер брони — он появится в билете после подтверждения. Сохраните чек.</div></div>
+          <div class="step"><div class="num">3</div><div class="txt">Вернитесь сюда, заполните контакты справа и нажмите <b>«Подтвердить оплату»</b>.</div></div>
+        </div>
+        <div class="pay-card">
+          <div class="brand"><div class="brand-name">Terra Incognita</div><div class="brand-logo">МИР</div></div>
+          <div class="label">Перевод по номеру карты</div>
+          <div class="card-number" id="cardNum" title="Нажмите, чтобы выделить номер">2202 2088 5991 1860</div>
+          <div class="card-meta"><div>Получатель<span>Руслан С.</span></div><div>Банк<span>ПАО «Сбербанк»</span></div></div>
+          <button type="button" class="copy-btn" id="copyBtn">Скопировать номер карты</button>
+          <div class="timer">Резерв брони <b id="timer">15:00</b></div>
+        </div>
+      </div>
+      <div class="pay-summary">
+        <h3>К оплате</h3>
+        <div id="payRows"></div>
+        <div class="row total"><span>Итого</span><span id="payTotal">0 ₽</span></div>
+        <div class="contact-form">
+          <h4>Контактные данные</h4>
+          <label><span>Ваше имя</span><input type="text" id="contactName" placeholder="Анна" autocomplete="given-name"><div class="error-msg" id="nameError">Укажите имя — минимум 2 буквы</div></label>
+          <label><span>Телефон</span><input type="tel" id="contactPhone" placeholder="+7 999 123-45-67" autocomplete="tel"><div class="error-msg" id="phoneError">Введите номер телефона — не менее 10 цифр</div></label>
+        </div>
+        <button type="button" class="btn" id="confirmPay">Подтвердить оплату</button>
+        <div class="timer-expired-box" id="timerExpired">Резерв истёк — бронь не подтверждена.<br><button type="button" id="restartFromExpired">Начать заново</button></div>
+        <div class="pay-warning" id="payWarning"><div class="icon">!</div><div>Сначала переведите сумму на карту. Кнопку «Подтвердить» нажимайте только после того, как деньги отправлены и вы сохранили чек.</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="view" id="viewTicket">
+    <h2>Бронь подтверждена</h2>
+    <div class="ticket" id="ticket"></div>
+    <div class="ticket-actions">
+      <button type="button" class="btn ghost" id="icsBtn">Добавить в календарь</button>
+      <button type="button" class="btn ghost" id="shareBtn" style="display:none">Поделиться</button>
+      <button type="button" class="btn ghost" id="restart">Оформить ещё один</button>
+      <button type="button" class="btn ghost" data-nav="home">На главную</button>
+    </div>
+  </div>
+</section>
+
+<section class="page" data-page="contacts">
+  <h1 class="page-title">Контакты</h1>
+  <p class="page-lead">Мы рядом с Пушкинской площадью, у Петровского бульвара. Открыты ежедневно с 12:00 до 21:00.</p>
+  <div class="contacts-grid">
+    <div class="contact-info">
+      <div class="contact-item"><div class="label">Адрес</div><div class="value">ул. Петровка, 30/7</div><div class="sub">Москва, 107031</div></div>
+      <div class="contact-item"><div class="label">Метро</div><div class="value">Чеховская · Пушкинская · Тверская</div><div class="sub">8 минут пешком</div></div>
+      <div class="contact-item"><div class="label">Телефон</div><div class="value">+7 (495) 639-74-24</div><div class="sub">Ежедневно с 10:00 до 21:00</div></div>
+      <div class="contact-item"><div class="label">Почта</div><div class="value">terra-inkognita647@mail.ru</div><div class="sub">Ответим в течение дня</div></div>
+      <div class="contact-item"><div class="label">Часы работы</div><div class="value">Ежедневно 12:00 – 21:00</div><div class="sub">Последний сеанс стартует в 20:00</div></div>
+    </div>
+    <div class="contact-map"><iframe src="https://www.openstreetmap.org/export/embed.html?bbox=37.6055%2C55.7645%2C37.6195%2C55.7715&amp;layer=mapnik&amp;marker=55.7679%2C37.6123" title="Карта — Петровка, 30/7"></iframe></div>
+  </div>
+  <div class="how-to-get">
+    <h2 style="margin-top:0">Как добраться</h2>
+    <p><b>На метро:</b> станции «Чеховская», «Пушкинская» или «Тверская» — один пересадочный узел. Выходите к Пушкинской площади, идите по Петровке в сторону Петровского бульвара — около 8 минут. Мы на углу с Петровским бульваром, дом 30/7.</p>
+    <p><b>На машине:</b> платная парковка на Петровке и Петровском бульваре (зона 2, 380 ₽/час). Ближайший крытый паркинг — ТЦ «Петровский пассаж», 5 минут пешком.</p>
+    <p><b>Пешком от Красной площади:</b> 20 минут по Никольской и Петровке.</p>
+  </div>
+</section>
+
+<section class="page" data-page="faq">
+  <h1 class="page-title">Частые вопросы</h1>
+  <p class="page-lead">Если не нашли ответ — напишите на terra-inkognita647@mail.ru или позвоните +7 (495) 639-74-24.</p>
+  <div class="faq-list" id="faqList"></div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-cols">
+      <div><div class="footer-brand">Terra Incognita</div><p>Дегустационный павильон экзотических вкусов в центре Москвы. Работаем с 2023 года.</p></div>
+      <div><h4>Разделы</h4><a data-nav="home" href="#">Главная</a><a data-nav="menu" href="#">Меню</a><a data-nav="about" href="#">О нас</a><a data-nav="booking" href="#">Бронирование</a></div>
+      <div><h4>Контакты</h4><p>ул. Петровка, 30/7</p><p>+7 (495) 639-74-24</p><p>terra-inkognita647@mail.ru</p></div>
+      <div><h4>Часы</h4><p>Пн–Вс · 12:00–21:00</p><p>Последний сеанс — 20:00</p></div>
+    </div>
+    <div class="footer-bottom">© 2023–2026 Terra Incognita. Все права защищены.</div>
+  </div>
+</footer>
+
+<div class="cookie-banner" id="cookieBanner">
+  <div class="txt">Мы используем <b>localStorage</b>, чтобы сохранять вашу бронь между визитами. Продолжая пользоваться сайтом, вы соглашаетесь с этим.</div>
+  <button type="button" id="cookieAccept">Принять</button>
+</div>
+
+<script>
+(function(){
+"use strict";
+
+const ALLERGENS=[
+{id:"nuts",label:"Орехи"},{id:"lactose",label:"Лактоза"},{id:"gluten",label:"Глютен"},
+{id:"seafood",label:"Морепродукты"},{id:"citrus",label:"Цитрусы"},{id:"caffeine",label:"Кофеин"}
+];
+
+const DISHES=[
+{name:"Матча церемониального класса",desc:"Взбитый зелёный чай, Удзи, Япония",tag:"drink",tagLabel:"напиток",emoji:"🍵",allergens:["caffeine"]},
+{name:"Лимонад юдзу-лемонграсс",desc:"Цитрус юдзу, лемонграсс, лёд",tag:"drink",tagLabel:"напиток",emoji:"🍋",allergens:["citrus"]},
+{name:"Чай масала",desc:"Чёрный чай со специями и молоком",tag:"drink",tagLabel:"напиток",emoji:"☕",allergens:["caffeine","lactose"]},
+{name:"Комбуча с маракуйей",desc:"Ферментированный чай, тропики",tag:"drink",tagLabel:"напиток",emoji:"🥤",allergens:[]},
+{name:"Мангостин",desc:"Таиланд, привозим по сезону",tag:"food",tagLabel:"еда",emoji:"🥭",allergens:[]},
+{name:"Личи охлаждённый",desc:"Импорт из Вьетнама, сочный и цветочный",tag:"food",tagLabel:"еда",emoji:"🍒",allergens:[]},
+{name:"Питахайя",desc:"Драконий фрукт, Вьетнам",tag:"food",tagLabel:"еда",emoji:"🐉",allergens:[]},
+{name:"Джекфрут",desc:"Крупнейший плод, сладкие дольки",tag:"food",tagLabel:"еда",emoji:"🍈",allergens:[]},
+{name:"Том-кха",desc:"Тайский кокосовый суп с лемонграссом",tag:"food",tagLabel:"еда",emoji:"🍜",allergens:["seafood"]},
+{name:"Моти с матчей",desc:"Рисовое пирожное, японский десерт",tag:"dessert",tagLabel:"десерт",emoji:"🍡",allergens:["caffeine"]},
+{name:"Манговый стики-райс",desc:"Клейкий рис, кокос, манго",tag:"dessert",tagLabel:"десерт",emoji:"🥥",allergens:[]},
+{name:"Лукум с розой и фисташкой",desc:"Турецкая сладость, розовая вода",tag:"dessert",tagLabel:"десерт",emoji:"🍬",allergens:["nuts","gluten"]},
+{name:"Панна-котта с маракуйей",desc:"Сливочный десерт, кислый топпинг",tag:"dessert",tagLabel:"десерт",emoji:"🍮",allergens:["lactose"]}
+];
+
+const PASSES=[
+{id:1,title:"Знакомство",qty:"6 мини-порций — 2 напитка, 3 закуски и десерт. Познакомиться с палитрой без спешки.",price:2000,duration:30,slots:["12:00","13:00","14:00","15:00","16:00","17:00","18:00","19:00","20:00"],busySlots:["14:00","19:00"]},
+{id:2,title:"Погружение",qty:"12 мини-порций — вся ротация. Гид ведёт вас через вкусы с рассказом и памятным браслетом.",price:5000,duration:60,slots:["12:00","14:00","16:00","18:00","20:00"],busySlots:["16:00"]}
+];
+
+const PROMOS={
+WELCOME10:{type:"percent",value:10,label:"−10% на весь заказ"},
+FIRST500:{type:"fixed",value:500,label:"−500 ₽"},
+FRIEND:{type:"percent",value:15,label:"−15% на весь заказ"},
+"TERRA38537-50%":{type:"percent",value:50,label:"−50% на весь заказ"}
+};
+
+const FAQ=[
+{q:"Можно ли прийти с детьми?",a:"Да, мы работаем с гостями любого возраста. Для детей до 12 лет есть облегчённый набор без острого и кофеина. Дети до 6 лет — бесплатно (без отдельного сета)."},
+{q:"Есть ли вегетарианские опции?",a:"Из 13 позиций меню 12 — вегетарианские (исключение — том-кха с рыбным соусом). Том-кха можно сделать без рыбного соуса по запросу — просто предупредите при бронировании."},
+{q:"Что делать при аллергии?",a:"Предупредите нас за 24 часа до сеанса — напишите на почту или позвоните. Заменим продукт на аналог бесплатно. Если аллергия серьёзная, скажите заранее — обсудим, что безопасно."},
+{q:"Можно ли перенести или отменить бронь?",a:"Отмена бесплатна за 2 часа до сеанса — просто позвоните или напишите. Перенос — также за 2 часа, при наличии свободных слотов."},
+{q:"Как оплатить?",a:"Переводом на карту Сбербанка. После перевода заполните контакты и нажмите «Подтвердить оплату» — бронь сразу подтверждается. Чек сохраните — могут попросить на входе."},
+{q:"Сколько длится сеанс?",a:"Знакомство — 30 минут. Погружение — 60 минут с гидом. Плюс 10–15 минут на сборы и фото."},
+{q:"Как считается стоимость для нескольких гостей?",a:"Каждый гость оплачивает полную стоимость пропуска. Итоговая сумма — цена пропуска, умноженная на число гостей."},
+{q:"Как работает календарь?",a:"На странице бронирования доступны 7 дней вперёд. У каждого дня своё расписание — занятые и уже прошедшие слоты помечены серым. Просто выберите день, потом время."}
+];
+
+const STORAGE_KEY="terra_booking_v2";
+const COOKIE_KEY="terra_cookie_ok";
+const ALLERGY_KEY="terra_allergens";
+
+const state={pass:null,slot:null,guests:1,contact:{name:"",phone:""},selectedDateISO:null,promo:null,promoCode:null,allergens:new Set(),timerId:null,secondsLeft:900,timerExpired:false,lastBooking:null};
+const $=function(id){return document.getElementById(id)};
+
+const DAYS=[];
+function rebuildDays(){
+  const prevISO=state.selectedDateISO;
+  DAYS.length=0;
+  const today=new Date();today.setHours(0,0,0,0);
+  for(let i=0;i<7;i++){
+    const d=new Date(today);d.setDate(today.getDate()+i);
+    const iso=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+    const dayNames=["Вс","Пн","Вт","Ср","Чт","Пт","Сб"];
+    const monthNames=["янв","фев","мар","апр","мая","июн","июл","авг","сен","окт","ноя","дек"];
+    let label;
+    if(i===0)label="Сегодня";else if(i===1)label="Завтра";else label=dayNames[d.getDay()];
+    DAYS.push({iso:iso,label:label,dayNum:d.getDate(),month:monthNames[d.getMonth()],date:d});
+  }
+  if(!prevISO||!DAYS.some(function(d){return d.iso===prevISO})){
+    state.selectedDateISO=DAYS[0].iso;
+    if(state.pass)state.slot=firstFreeSlotForDate(state.pass,state.selectedDateISO);
+  }
+}
+rebuildDays();
+
+function isPastSlot(iso,slot){
+  if(iso!==DAYS[0].iso)return false;
+  const now=new Date();
+  const parts=slot.split(":");
+  const h=Number(parts[0]),m=Number(parts[1]);
+  return (now.getHours()*60+now.getMinutes())>=(h*60+m);
+}
+
+function getSelectedDay(){return DAYS.find(function(d){return d.iso===state.selectedDateISO})||DAYS[0]}
+
+function busySlotsForDate(passId,iso){
+  let hash=0;const s=passId+"_"+iso;
+  for(let i=0;i<s.length;i++)hash=((hash<<5)-hash+s.charCodeAt(i))|0;
+  const pass=PASSES.find(function(p){return p.id===passId});
+  const result=[];
+  pass.slots.forEach(function(slot,idx){
+    const h=Math.abs((hash*(idx+1)*17+idx*31)%100);
+    if(h<20)result.push(slot);
+  });
+  if(iso===DAYS[0].iso){
+    pass.busySlots.forEach(function(s){if(result.indexOf(s)===-1)result.push(s)});
+    pass.slots.forEach(function(s){if(isPastSlot(iso,s)&&result.indexOf(s)===-1)result.push(s)});
+  }
+  return result;
+}
+
+function renderDayStrip(){
+  const el=$("dayStrip");el.innerHTML="";
+  DAYS.forEach(function(d){
+    const chip=document.createElement("div");
+    chip.className="day-chip"+(d.iso===state.selectedDateISO?" selected":"");
+    chip.innerHTML='<div class="dc-day">'+d.label+'</div><div class="dc-num">'+d.dayNum+'</div><div class="dc-month">'+d.month+'</div>';
+    chip.addEventListener("click",function(){
+      state.selectedDateISO=d.iso;
+      if(state.pass){
+        const busy=busySlotsForDate(state.pass.id,d.iso);
+        if(busy.indexOf(state.slot)!==-1)state.slot=firstFreeSlotForDate(state.pass,d.iso);
+      }
+      renderDayStrip();renderSlots();updateCart();saveState();
+    });
+    el.appendChild(chip);
+  });
+}
+
+function firstFreeSlotForDate(p,iso){
+  const busy=busySlotsForDate(p.id,iso);
+  for(let i=0;i<p.slots.length;i++){if(busy.indexOf(p.slots[i])===-1)return p.slots[i]}
+  return null;
+}
+
+function setStep(n){
+  document.querySelectorAll("#stepBar .sb-item").forEach(function(el){
+    const step=Number(el.dataset.step);
+    el.classList.toggle("active",step===n);
+    el.classList.toggle("done",step<n);
+  });
+}
+
+function resetBookingView(){
+  stopTimer();
+  document.querySelectorAll("#viewBooking, #viewPayment, #viewTicket").forEach(function(v){v.classList.remove("active")});
+  $("viewBooking").classList.add("active");
+  $("timerExpired").classList.remove("show");
+  $("payWarning").style.display="flex";
+  state.timerExpired=false;
+  setStep(1);
+}
+
+function refreshBookingUI(){
+  renderDayStrip();
+  renderSlots();
+  updateCart();
+  updatePassTotals();
+}
+
+function showPage(name,target){
+  if(name!=="booking")stopTimer();
+  document.querySelectorAll(".page").forEach(function(p){p.classList.toggle("active",p.dataset.page===name)});
+  document.querySelectorAll(".site-nav a").forEach(function(a){a.classList.toggle("active",a.dataset.nav===name)});
+  $("siteNav").classList.remove("open");
+  if(name==="booking"){
+    rebuildDays();
+    refreshBookingUI();
+    resetBookingView();
+  }
+  window.scrollTo(0,0);
+  if(target){
+    setTimeout(function(){
+      const el=$(target);
+      if(el){
+        const offset=80;
+        const top=el.getBoundingClientRect().top+window.pageYOffset-offset;
+        window.scrollTo({top:top,behavior:"smooth"});
+      }
+    },120);
+  }
+}
+
+document.querySelectorAll("[data-nav]").forEach(function(el){
+  el.addEventListener("click",function(e){e.preventDefault();showPage(el.dataset.nav,el.dataset.target)});
+});
+$("burgerBtn").addEventListener("click",function(){$("siteNav").classList.toggle("open")});
+
+DISHES.slice(0,6).forEach(function(d){
+  const el=document.createElement("div");
+  el.className="preview-card";
+  el.innerHTML='<div class="emoji">'+d.emoji+'</div><div class="name">'+d.name+'</div><div class="desc">'+d.desc+'</div>';
+  $("homePreview").appendChild(el);
+});
+
+function renderMenu(){
+  const el=$("menuList");el.innerHTML="";
+  DISHES.forEach(function(d){
+    const hits=d.allergens.filter(function(a){return state.allergens.has(a)});
+    const hasAllergen=hits.length>0;
+    const dish=document.createElement("div");
+    dish.className="dish"+(hasAllergen?" has-allergen":"");
+    let allergenNote="";
+    if(hasAllergen){
+      const names=hits.map(function(id){
+        const a=ALLERGENS.find(function(x){return x.id===id});
+        return a?a.label.toLowerCase():id;
+      }).join(", ");
+      allergenNote='<div class="dish-allergen-note">⚠ Содержит: '+names+'. По запросу заменим.</div>';
+    }
+    dish.innerHTML='<div class="dish-emoji">'+d.emoji+'</div><div class="dish-content"><div class="name">'+d.name+'</div><div class="desc">'+d.desc+'</div><span class="tag '+d.tag+'">'+d.tagLabel+'</span>'+allergenNote+'</div>';
+    el.appendChild(dish);
+  });
+}
+
+function renderAllergens(){
+  const el=$("allergenList");el.innerHTML="";
+  ALLERGENS.forEach(function(a){
+    const chip=document.createElement("label");
+    chip.className="allergen-chip"+(state.allergens.has(a.id)?" active":"");
+    chip.innerHTML='<input type="checkbox"'+(state.allergens.has(a.id)?' checked':'')+'><span>'+a.label+'</span>';
+    chip.querySelector("input").addEventListener("change",function(ev){
+      if(ev.target.checked)state.allergens.add(a.id);else state.allergens.delete(a.id);
+      chip.classList.toggle("active",ev.target.checked);
+      renderMenu();saveAllergens();
+    });
+    el.appendChild(chip);
+  });
+}
+
+function saveAllergens(){try{localStorage.setItem(ALLERGY_KEY,JSON.stringify(Array.from(state.allergens)))}catch(e){}}
+function restoreAllergens(){try{const raw=localStorage.getItem(ALLERGY_KEY);if(raw)state.allergens=new Set(JSON.parse(raw))}catch(e){}}
+
+FAQ.forEach(function(item){
+  const el=document.createElement("div");
+  el.className="faq-item";
+  el.innerHTML='<div class="faq-q"><span>'+item.q+'</span><span class="plus">+</span></div><div class="faq-a">'+item.a+'</div>';
+  el.querySelector(".faq-q").addEventListener("click",function(){el.classList.toggle("open")});
+  $("faqList").appendChild(el);
+});
+
+PASSES.forEach(function(p){
+  const el=document.createElement("div");
+  el.className="pass";el.dataset.id=p.id;
+  const portions=p.id===1?"6 порций":"12 порций";
+  const guideLabel=p.id===2?"С гидом":"Без гида";
+  el.innerHTML=
+    '<div class="pass-badges">'+
+      '<span class="pass-badge">'+portions+'</span>'+
+      '<span class="pass-badge">'+p.duration+' мин</span>'+
+      '<span class="pass-badge">'+guideLabel+'</span>'+
+    '</div>'+
+    '<div class="title">'+p.title+'</div>'+
+    '<div class="pass-desc">'+p.qty+'</div>'+
+    '<div class="pass-price">'+p.price.toLocaleString("ru")+' ₽<small>за гостя</small></div>'+
+    '<div class="price-total" data-total-for="'+p.id+'"></div>'+
+    '<div class="slots">Сеансы: '+p.slots[0]+' – '+p.slots[p.slots.length-1]+'</div>';
+  el.addEventListener("click",function(){selectPass(p)});
+  $("passes").appendChild(el);
+});
+
+function updatePassTotals(){
+  PASSES.forEach(function(p){
+    const el=document.querySelector('.price-total[data-total-for="'+p.id+'"]');
+    if(!el)return;
+    const total=p.price*state.guests;
+    if(state.guests<=1){
+      el.style.display="none";
+    }else{
+      el.style.display="flex";
+      el.innerHTML='<span>'+state.guests+' гост. × '+p.price.toLocaleString("ru")+'</span><b>'+total.toLocaleString("ru")+' ₽</b>';
+    }
+  });
+}
+
+function selectPass(p){
+  state.pass=p;
+  state.slot=firstFreeSlotForDate(p,state.selectedDateISO);
+  document.querySelectorAll(".pass").forEach(function(el){el.classList.toggle("selected",Number(el.dataset.id)===p.id)});
+  renderSlots();updateCart();saveState();
+}
+
+function renderSlots(){
+  if(state.pass&&state.slot&&isPastSlot(state.selectedDateISO,state.slot)){
+    state.slot=firstFreeSlotForDate(state.pass,state.selectedDateISO);
+  }
+  const el=$("slots");el.innerHTML="";
+  if(!state.pass){
+    el.innerHTML='<span style="color:#8a7a62;font-size:14px">Сначала выберите пропуск</span>';
+    $("slotsLegend").style.display="none";return;
+  }
+  const busy=busySlotsForDate(state.pass.id,state.selectedDateISO);
+  $("slotsLegend").style.display=busy.length>0?"block":"none";
+  const anyFree=state.pass.slots.some(function(s){return busy.indexOf(s)===-1});
+  if(!anyFree){
+    el.innerHTML='<div class="no-slots-msg">На этот день мест нет. Выберите другой день или пропуск.</div>';return;
+  }
+  state.pass.slots.forEach(function(s){
+    const isBusy=busy.indexOf(s)!==-1;
+    const isPast=isPastSlot(state.selectedDateISO,s);
+    const b=document.createElement("button");
+    b.type="button";b.disabled=isBusy;
+    let cls="slot";
+    if(isBusy)cls+=(isPast?" past":" busy");
+    if(s===state.slot)cls+=" selected";
+    b.className=cls;
+    b.textContent=s;
+    if(!isBusy){
+      b.addEventListener("click",function(){
+        state.slot=s;
+        document.querySelectorAll(".slot").forEach(function(x){x.classList.toggle("selected",x.textContent===s&&!x.classList.contains("busy")&&!x.classList.contains("past"))});
+        updateCart();saveState();
+      });
+    }
+    el.appendChild(b);
+  });
+}
+
+$("plus").addEventListener("click",function(){
+  if(state.guests>=10)return;
+  state.guests++;$("guestCount").textContent=state.guests;
+  updateCart();updatePassTotals();saveState();
+});
+$("minus").addEventListener("click",function(){
+  if(state.guests>1)state.guests--;
+  $("guestCount").textContent=state.guests;
+  updateCart();updatePassTotals();saveState();
+});
+
+function calcPassCost(){if(!state.pass)return 0;return state.pass.price*state.guests}
+function calcSubtotal(){return calcPassCost()}
+function calcDiscount(subtotal){
+  if(!state.promo)return 0;
+  if(state.promo.type==="percent")return Math.round(subtotal*state.promo.value/100);
+  if(state.promo.type==="fixed")return Math.min(subtotal,state.promo.value);
+  return 0;
+}
+
+function updateCart(){
+  const rows=$("cartRows");rows.innerHTML="";let sub=0;
+  if(state.pass){
+    const passCost=calcPassCost();sub+=passCost;
+    let note="";
+    if(state.guests>1)note=' <span class="note-sm">('+state.pass.price.toLocaleString("ru")+' × '+state.guests+')</span>';
+    rows.innerHTML+='<div class="row"><span>'+state.pass.title+' × '+state.guests+' гост.'+note+'</span><span>'+passCost.toLocaleString("ru")+' ₽</span></div>';
+    if(state.slot){
+      const day=getSelectedDay();
+      rows.innerHTML+='<div class="row"><span>Сеанс</span><span>'+day.dayNum+' '+day.month+', '+state.slot+'</span></div>';
+    }
+    $("guestsNote").textContent='Цена за гостя — '+state.pass.price.toLocaleString("ru")+' ₽ · максимум 10 гостей';
+  }else{
+    rows.innerHTML='<div class="row"><span style="color:#8a7a62">Пропуск не выбран</span></div>';
+    $("guestsNote").textContent='Цена за гостя — выберите пропуск';
+  }
+  const discount=calcDiscount(sub);
+  if(discount>0&&state.promo){
+    rows.innerHTML+='<div class="row discount"><span>Промокод '+state.promoCode+'</span><span>−'+discount.toLocaleString("ru")+' ₽</span></div>';
+  }
+  $("total").textContent=(sub-discount).toLocaleString("ru")+" ₽";
+
+  const promoRow=document.querySelector(".promo-row");
+  const promoApplied=document.querySelector(".promo-applied");
+  if(state.promo){
+    if(!promoApplied){
+      const div=document.createElement("div");
+      div.className="promo-applied";
+      div.innerHTML='<span>✓ <span class="pa-code">'+state.promoCode+'</span> — '+state.promo.label+'</span><button type="button" class="pa-remove" id="promoRemove">Убрать</button>';
+      promoRow.parentNode.insertBefore(div,promoRow.nextSibling);
+      $("promoRemove").addEventListener("click",function(){
+        state.promo=null;state.promoCode=null;div.remove();
+        $("promoInput").value="";updateCart();saveState();
+      });
+    }
+    promoRow.style.display="none";
+  }else{
+    if(promoApplied)promoApplied.remove();
+    promoRow.style.display="flex";
+  }
+
+  const btn=$("checkout");const hint=$("btnHint");
+  const day=getSelectedDay();
+  const busy=state.pass?busySlotsForDate(state.pass.id,day.iso):[];
+  const anyFree=state.pass?state.pass.slots.some(function(s){return busy.indexOf(s)===-1}):false;
+  const slotPast=state.slot?isPastSlot(state.selectedDateISO,state.slot):false;
+  const ready=!!(state.pass&&state.slot&&!slotPast);
+  btn.disabled=!ready;
+  if(ready){hint.style.display="none"}else{
+    hint.style.display="block";
+    if(!state.pass)hint.textContent="Выберите пропуск";
+    else if(!anyFree)hint.textContent="На этот день мест нет — выберите другой день";
+    else if(slotPast)hint.textContent="Выбранное время уже прошло — выберите другое";
+    else hint.textContent="Выберите время сеанса";
+  }
+}
+
+$("promoApply").addEventListener("click",function(){
+  const code=$("promoInput").value.trim().toUpperCase();
+  const err=$("promoError");err.classList.remove("show");
+  if(!code)return;
+  if(PROMOS[code]){
+    if(code==="FIRST500"&&calcSubtotal()<1500){
+      err.textContent="FIRST500 — только при заказе от 1500 ₽";
+      err.classList.add("show");return;
+    }
+    state.promo=PROMOS[code];state.promoCode=code;
+    $("promoInput").value="";updateCart();saveState();
+  }else{
+    err.textContent="Промокод не найден";err.classList.add("show");
+  }
+});
+$("promoInput").addEventListener("keypress",function(e){if(e.key==="Enter")$("promoApply").click()});
+
+function saveState(){
+  try{
+    localStorage.setItem(STORAGE_KEY,JSON.stringify({
+      passId:state.pass?state.pass.id:null,slot:state.slot,dateISO:state.selectedDateISO,
+      guests:state.guests,contact:state.contact,
+      promoCode:state.promoCode||null,savedAt:Date.now()
+    }));
+  }catch(e){}
+}
+function clearState(){try{localStorage.removeItem(STORAGE_KEY)}catch(e){}}
+function restoreState(){
+  let raw;try{raw=localStorage.getItem(STORAGE_KEY)}catch(e){return}
+  if(!raw)return;
+  let data;try{data=JSON.parse(raw)}catch(e){return}
+  if(!data.passId)return;
+  if(Date.now()-(data.savedAt||0)>24*60*60*1000){clearState();return}
+  const p=PASSES.find(function(x){return x.id===data.passId});
+  if(!p)return;
+  state.pass=p;
+  if(data.dateISO&&DAYS.some(function(d){return d.iso===data.dateISO}))state.selectedDateISO=data.dateISO;
+  state.slot=(data.slot&&busySlotsForDate(p.id,state.selectedDateISO).indexOf(data.slot)===-1)?data.slot:firstFreeSlotForDate(p,state.selectedDateISO);
+  state.guests=Math.min(Math.max(data.guests||1,1),10);
+  state.contact=data.contact||{name:"",phone:""};
+  if(data.promoCode&&PROMOS[data.promoCode]){
+    state.promo=PROMOS[data.promoCode];state.promoCode=data.promoCode;
+  }
+  document.querySelectorAll(".pass").forEach(function(el){el.classList.toggle("selected",Number(el.dataset.id)===p.id)});
+  $("guestCount").textContent=state.guests;
+  $("contactName").value=state.contact.name;
+  $("contactPhone").value=state.contact.phone;
+  renderDayStrip();renderSlots();updateCart();updatePassTotals();
+}
+
+$("checkout").addEventListener("click",function(){
+  if(!state.pass||!state.slot)return;
+  if(isPastSlot(state.selectedDateISO,state.slot)){
+    alert("Выбранное время уже прошло. Выберите другой слот.");
+    renderSlots();updateCart();
+    return;
+  }
+  const rows=$("payRows");rows.innerHTML="";
+  const passCost=calcPassCost();
+  let note="";
+  if(state.guests>1)note=' <span class="note-sm">('+state.pass.price.toLocaleString("ru")+' × '+state.guests+')</span>';
+  const day=getSelectedDay();
+  rows.innerHTML+='<div class="row"><span>'+state.pass.title+' × '+state.guests+note+'</span><span>'+passCost.toLocaleString("ru")+' ₽</span></div>';
+  rows.innerHTML+='<div class="row"><span>Дата</span><span>'+day.dayNum+' '+day.month+'</span></div>';
+  rows.innerHTML+='<div class="row"><span>Сеанс</span><span>'+state.slot+'</span></div>';
+  const sub=calcSubtotal();const discount=calcDiscount(sub);
+  if(discount>0&&state.promo){
+    rows.innerHTML+='<div class="row discount"><span>Промокод '+state.promoCode+'</span><span>−'+discount.toLocaleString("ru")+' ₽</span></div>';
+  }
+  const totalStr=(sub-discount).toLocaleString("ru")+" ₽";
+  $("payTotal").textContent=totalStr;
+  $("stepAmount").textContent=totalStr;
+  $("contactName").value=state.contact.name;
+  $("contactPhone").value=state.contact.phone;
+  $("contactName").classList.remove("invalid");
+  $("contactPhone").classList.remove("invalid");
+  $("nameError").classList.remove("show");
+  $("phoneError").classList.remove("show");
+  $("timerExpired").classList.remove("show");
+  $("payWarning").style.display="flex";
+  state.timerExpired=false;
+  $("confirmPay").disabled=false;
+  document.querySelectorAll("#viewBooking, #viewPayment, #viewTicket").forEach(function(v){v.classList.remove("active")});
+  $("viewPayment").classList.add("active");
+  setStep(2);window.scrollTo(0,0);startTimer();
+});
+
+function startTimer(){
+  if(state.timerId)clearInterval(state.timerId);
+  state.secondsLeft=900;state.timerExpired=false;
+  const el=$("timer");el.style.color="#e8c988";
+  function tick(){
+    const m=String(Math.floor(state.secondsLeft/60)).padStart(2,"0");
+    const s=String(state.secondsLeft%60).padStart(2,"0");
+    el.textContent=m+":"+s;
+    if(state.secondsLeft<=0){
+      clearInterval(state.timerId);
+      el.textContent="истёк";el.style.color="#e87a7a";
+      state.timerExpired=true;
+      $("confirmPay").disabled=true;
+      $("timerExpired").classList.add("show");
+      $("payWarning").style.display="none";return;
+    }
+    state.secondsLeft--;
+  }
+  tick();
+  state.timerId=setInterval(tick,1000);
+}
+function stopTimer(){if(state.timerId){clearInterval(state.timerId);state.timerId=null}}
+
+$("restartFromExpired").addEventListener("click",function(){
+  stopTimer();
+  document.querySelectorAll("#viewBooking, #viewPayment, #viewTicket").forEach(function(v){v.classList.remove("active")});
+  $("viewBooking").classList.add("active");
+  $("timerExpired").classList.remove("show");
+  $("payWarning").style.display="flex";
+  state.timerExpired=false;
+  $("confirmPay").disabled=false;
+  setStep(1);window.scrollTo(0,0);
+});
+
+function showCopyModal(num){
+  let modal=$("copyModal");if(modal)return;
+  modal=document.createElement("div");
+  modal.id="copyModal";
+  modal.innerHTML='<div class="modal-card"><div class="modal-title">Скопируйте номер карты</div><div class="modal-sub">Браузер не разрешил авто-копирование. Выделите номер и скопируйте вручную.</div><div class="modal-num" id="copyModalNum">'+num+'</div><button type="button" class="modal-btn" id="copyModalClose">Понятно</button></div>';
+  document.body.appendChild(modal);
+  modal.addEventListener("click",function(ev){if(ev.target===modal||ev.target.id==="copyModalClose")modal.remove()});
+  setTimeout(function(){
+    const el=$("copyModalNum");
+    if(el&&window.getSelection){
+      const range=document.createRange();range.selectNodeContents(el);
+      const sel=window.getSelection();sel.removeAllRanges();sel.addRange(range);
+    }
+  },50);
+}
+
+$("copyBtn").addEventListener("click",function(){
+  const num=$("cardNum").textContent.replace(/\s/g,"");
+  const btn=$("copyBtn");
+  function success(){btn.textContent="Скопировано ✓";setTimeout(function(){btn.textContent="Скопировать номер карты"},2000)}
+  if(navigator.clipboard&&navigator.clipboard.writeText&&window.isSecureContext){
+    navigator.clipboard.writeText(num).then(success).catch(function(){showCopyModal(num)});return;
+  }
+  try{
+    const ta=document.createElement("textarea");
+    ta.value=num;ta.setAttribute("readonly","");
+    ta.style.cssText="position:fixed;top:0;left:0;width:1px;height:1px;padding:0;border:none;outline:none;box-shadow:none;background:transparent;opacity:0.01;";
+    document.body.appendChild(ta);ta.focus();ta.select();ta.setSelectionRange(0,num.length);
+    const ok=document.execCommand("copy");document.body.removeChild(ta);
+    if(ok)success();else showCopyModal(num);
+  }catch(e){showCopyModal(num)}
+});
+
+$("cardNum").addEventListener("click",function(){
+  const el=this;
+  if(window.getSelection){
+    const range=document.createRange();range.selectNodeContents(el);
+    const sel=window.getSelection();sel.removeAllRanges();sel.addRange(range);
+  }
+  const btn=$("copyBtn");const original=btn.textContent;
+  btn.textContent="Номер выделен — Ctrl+C";
+  setTimeout(function(){btn.textContent=original},2500);
+});
+
+function validateName(v){return v.trim().length>=2}
+function validatePhone(v){const d=v.replace(/\D/g,"");return d.length>=10&&d.length<=15}
+
+$("contactName").addEventListener("blur",function(){
+  const valid=validateName(this.value);
+  this.classList.toggle("invalid",!valid&&this.value.length>0);
+  $("nameError").classList.toggle("show",!valid&&this.value.length>0);
+  state.contact.name=this.value.trim();saveState();
+});
+$("contactPhone").addEventListener("blur",function(){
+  const valid=validatePhone(this.value);
+  this.classList.toggle("invalid",!valid&&this.value.length>0);
+  $("phoneError").classList.toggle("show",!valid&&this.value.length>0);
+  state.contact.phone=this.value.trim();saveState();
+});
+$("contactName").addEventListener("input",function(){if(this.classList.contains("invalid")&&validateName(this.value)){this.classList.remove("invalid");$("nameError").classList.remove("show")}});
+$("contactPhone").addEventListener("input",function(){if(this.classList.contains("invalid")&&validatePhone(this.value)){this.classList.remove("invalid");$("phoneError").classList.remove("show")}});
+
+function exportICS(){
+  const b=state.lastBooking;if(!b)return;
+  const day=getSelectedDay();
+  const parts=b.slot.split(":");
+  const h=Number(parts[0]),m=Number(parts[1]);
+  const duration=state.pass.duration||30;
+  const start=new Date(day.date);start.setHours(h,m,0,0);
+  const end=new Date(start.getTime()+duration*60000);
+  function fmt(dt){return dt.getFullYear()+String(dt.getMonth()+1).padStart(2,"0")+String(dt.getDate()).padStart(2,"0")+"T"+String(dt.getHours()).padStart(2,"0")+String(dt.getMinutes()).padStart(2,"0")+"00"}
+  const ics=[
+    "BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Terra Incognita//RU","CALSCALE:GREGORIAN",
+    "BEGIN:VEVENT","UID:"+b.id+"@terra-inkognita.ru","DTSTAMP:"+fmt(new Date()),
+    "DTSTART:"+fmt(start),"DTEND:"+fmt(end),
+    "SUMMARY:Дегустация Terra Incognita — "+b.pass,
+    "DESCRIPTION:Бронь "+b.id+"\\nГостей: "+b.guests+"\\nАдрес: ул. Петровка, 30/7",
+    "LOCATION:Москва, ул. Петровка, 30/7",
+    "BEGIN:VALARM","TRIGGER:-PT2H","ACTION:DISPLAY","DESCRIPTION:Напоминание о дегустации","END:VALARM",
+    "END:VEVENT","END:VCALENDAR"
+  ].join("\r\n");
+  const blob=new Blob([ics],{type:"text/calendar;charset=utf-8"});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");
+  a.href=url;a.download="terra-"+b.id+".ics";
+  document.body.appendChild(a);a.click();document.body.removeChild(a);
+  setTimeout(function(){URL.revokeObjectURL(url)},1000);
+}
+$("icsBtn").addEventListener("click",exportICS);
+
+$("confirmPay").addEventListener("click",function(){
+  if(!state.pass||!state.slot||state.timerExpired)return;
+  if(isPastSlot(state.selectedDateISO,state.slot)){
+    alert("Выбранное время уже прошло. Вернитесь и выберите другой слот.");
+    stopTimer();
+    document.querySelectorAll("#viewBooking, #viewPayment, #viewTicket").forEach(function(v){v.classList.remove("active")});
+    $("viewBooking").classList.add("active");
+    setStep(1);
+    renderSlots();updateCart();
+    return;
+  }
+  const nameVal=$("contactName").value.trim();
+  const phoneVal=$("contactPhone").value.trim();
+  let ok=true;
+  if(!validateName(nameVal)){$("contactName").classList.add("invalid");$("nameError").classList.add("show");ok=false}
+  if(!validatePhone(phoneVal)){$("contactPhone").classList.add("invalid");$("phoneError").classList.add("show");ok=false}
+  if(!ok){const fi=document.querySelector(".contact-form input.invalid");if(fi)fi.focus();return}
+  state.contact={name:nameVal,phone:phoneVal};
+  stopTimer();
+  const bookingId="TI-"+Math.floor(100000+Math.random()*900000);
+  const sub=calcSubtotal();const discount=calcDiscount(sub);const total=sub-discount;
+  const day=getSelectedDay();
+  state.lastBooking={id:bookingId,pass:state.pass.title,slot:state.slot,guests:state.guests};
+  $("ticket").innerHTML=
+    '<h3>✦ Билет ✦</h3>'+
+    '<div class="line"><span>Бронь</span><span>'+bookingId+'</span></div>'+
+    '<div class="line"><span>Пропуск</span><span>'+state.pass.title+'</span></div>'+
+    '<div class="line"><span>Дата</span><span>'+day.dayNum+' '+day.month+' ('+day.label+')</span></div>'+
+    '<div class="line"><span>Время</span><span>'+state.slot+' · '+state.pass.duration+' мин</span></div>'+
+    '<div class="line"><span>Адрес</span><span>ул. Петровка, 30/7</span></div>'+
+    '<div class="line"><span>Метро</span><span>Чеховская · 8 мин</span></div>'+
+    '<div class="line"><span>Гостей</span><span>'+state.guests+'</span></div>'+
+    '<div class="line"><span>Имя</span><span>'+nameVal+'</span></div>'+
+    '<div class="line"><span>Телефон</span><span>'+phoneVal+'</span></div>'+
+    (state.promo?'<div class="line"><span>Промокод</span><span>'+state.promoCode+' (−'+discount.toLocaleString("ru")+' ₽)</span></div>':'')+
+    '<div class="line"><span>Способ</span><span>Перевод на карту</span></div>'+
+    '<div class="line"><span>Получатель</span><span>Руслан С.</span></div>'+
+    '<div class="line"><span>Итого</span><span>'+total.toLocaleString("ru")+' ₽</span></div>'+
+    '<p class="hint" style="text-align:center;margin-top:14px">Покажите билет администратору на входе. Отмена бесплатно за 2 часа до сеанса.</p>'+
+    '<div class="receipt-note"><b>Важно:</b> сохраните чек о переводе — администратор может попросить его показать. Если возникнут вопросы по оплате, назовите номер брони <b>'+bookingId+'</b>.</div>';
+  if(navigator.share)$("shareBtn").style.display="block";
+  clearState();
+  document.querySelectorAll("#viewBooking, #viewPayment, #viewTicket").forEach(function(v){v.classList.remove("active")});
+  $("viewTicket").classList.add("active");
+  setStep(3);window.scrollTo(0,0);
+});
+
+$("shareBtn").addEventListener("click",function(){
+  if(!navigator.share||!state.lastBooking)return;
+  const b=state.lastBooking;
+  navigator.share({
+    title:"Terra Incognita — бронь "+b.id,
+    text:"Моя бронь: "+b.pass+", "+b.slot+", "+b.guests+" гост. Адрес: ул. Петровка, 30/7."
+  }).catch(function(){});
+});
+
+$("backBtn").addEventListener("click",function(){
+  stopTimer();
+  document.querySelectorAll("#viewBooking, #viewPayment, #viewTicket").forEach(function(v){v.classList.remove("active")});
+  $("viewBooking").classList.add("active");
+  $("timerExpired").classList.remove("show");
+  $("payWarning").style.display="flex";
+  state.timerExpired=false;
+  $("confirmPay").disabled=false;
+  setStep(1);window.scrollTo(0,0);
+});
+
+$("restart").addEventListener("click",function(){
+  state.pass=null;state.slot=null;state.guests=1;
+  state.contact={name:"",phone:""};
+  state.promo=null;state.promoCode=null;
+  rebuildDays();
+  state.selectedDateISO=DAYS[0].iso;state.timerExpired=false;
+  $("guestCount").textContent="1";
+  $("contactName").value="";$("contactPhone").value="";$("promoInput").value="";
+  document.querySelectorAll(".pass").forEach(function(x){x.classList.remove("selected")});
+  $("shareBtn").style.display="none";
+  clearState();
+  renderDayStrip();renderSlots();updateCart();updatePassTotals();
+  document.querySelectorAll("#viewBooking, #viewPayment, #viewTicket").forEach(function(v){v.classList.remove("active")});
+  $("viewBooking").classList.add("active");
+  setStep(1);window.scrollTo(0,0);
+});
+
+(function initCookie(){
+  let accepted=false;
+  try{accepted=localStorage.getItem(COOKIE_KEY)==="1"}catch(e){}
+  if(!accepted)$("cookieBanner").classList.add("show");
+  $("cookieAccept").addEventListener("click",function(){
+    try{localStorage.setItem(COOKIE_KEY,"1")}catch(e){}
+    $("cookieBanner").classList.remove("show");
+  });
+})();
+
+let lastDayStamp=new Date().toDateString();
+let lastMinuteStamp=Math.floor(Date.now()/60000);
+
+function tickClock(){
+  const now=new Date();
+  const curDayStamp=now.toDateString();
+  const curMinuteStamp=Math.floor(now.getTime()/60000);
+  if(curMinuteStamp===lastMinuteStamp)return;
+  lastMinuteStamp=curMinuteStamp;
+
+  const bookingActive=document.querySelector('[data-page="booking"]').classList.contains("active");
+
+  if(curDayStamp!==lastDayStamp){
+    lastDayStamp=curDayStamp;
+    rebuildDays();
+    if(bookingActive&&!$("viewTicket").classList.contains("active")){
+      refreshBookingUI();
+    }
+    return;
+  }
+
+  if(bookingActive&&state.pass&&state.selectedDateISO===DAYS[0].iso&&$("viewBooking").classList.contains("active")){
+    renderSlots();
+    updateCart();
+  }
+}
+
+setInterval(tickClock,30000);
+document.addEventListener("visibilitychange",function(){
+  if(!document.hidden)tickClock();
+});
+window.addEventListener("focus",tickClock);
+
+restoreAllergens();
+renderAllergens();
+renderMenu();
+renderDayStrip();
+restoreState();
+updateCart();
+updatePassTotals();
+})();
+</script>
+
+<script></script></body></html>
